@@ -1,0 +1,105 @@
+/* Style the body area */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/vector-seamless-pattern-with-pink-lemon-slices-whole-pink-background_460840-833.jpg?w=360");
+  align-content: center;
+}
+
+/* Style the fonts */
+p {
+  font-size: 16px;
+  font-family: "Sarabun", sans-serif;
+  color: #000000;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/* Style the divisions (boxes)  */
+.header {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 30px;
+  border: 0px solid black;
+}
+
+/* Style of the main text division*/
+.article {
+  background-color: rgb(255, 192, 203);
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 30px;
+}
+
+/* Style of the footer */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(224, 126, 139);
+  color: white;
+}
+.li {
+  font-size: 16px;
+  color: black;
+  border: 0px solid black;
+}
+
+.centerItem {
+  /* this is a class I created to style the images into the center*/
+  width: 200px;
+  display: block; /* block will place an item all by itself on a new line*/
+  margin-left: auto; /*will automatically center it*/
+  margin-right: auto;
+}
+
+.button {
+  background-color: rgb(216, 85, 103);
+  border: 10px;
+  border-color: white;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 11px;
+  font-family: "Noto Sans", sans-serif;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 144px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(216, 85, 103);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(212, 134, 145);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
